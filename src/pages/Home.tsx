@@ -11,17 +11,16 @@ function Home() {
             >
                 <div className="absolute inset-0 bg-gradient-to-br from-[#C9A477]/5 to-transparent"></div>
 
-                <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="items-center text-center">
-                        <div className="w-24 h-[1px] bg-[#C9A477] mx-auto mb-8 mt-4"></div>
-                        <p className="text-xl md:text-2xl font-bold text-[#FAFAFA] max-w-2xl mx-auto">
+                <div className="absolute inset-0 grid">
+                    <div className="justify-self-center self-start text-center px-4 pt-96 md:pt-96 xl:pt-88">
+                        <p className="text-xl md:text-2xl 2xl:text-3xl 3xl:text-4xl font-bold text-[#FAFAFA] max-w-2xl mx-auto drop-shadow">
                             Zeitlose Eleganz und individuelle Beratung in Ottendorf-Okrilla
                         </p>
                     </div>
                 </div>
             </div>
 
-            {/* Willkommen-Section */}
+            {/* Welcome-Section */}
             <div className="py-24 px-6 md:px-16 bg-[#FAFAFA]">
                 <div className="max-w-3xl mx-auto text-center">
                     <div className="text-sm tracking-[0.3em] text-[#C9A477] mb-4">WILLKOMMEN</div>
@@ -36,7 +35,7 @@ function Home() {
                 </div>
             </div>
 
-            {/* Kontakt-Section */}
+            {/* Contact-Section */}
             <div className="py-24 px-6 md:px-16 bg-white">
                 <div className="max-w-5xl mx-auto">
                     <div className="text-sm tracking-[0.3em] text-[#C9A477] mb-4 text-center">KONTAKT</div>
