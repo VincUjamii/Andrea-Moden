@@ -27,14 +27,14 @@ function About() {
             {/* Intro */}
             <div className="bg-white py-20 md:py-28 px-6 mt-12 md:mt-0">
                 <div className="max-w-3xl mx-auto text-center">
-                    <div className="text-sm tracking-[0.3em] text-[#C9A477] mb-4">ÜBER UNS</div>
+                    <div className="text-sm tracking-[0.3em] text-[#8B6F47] mb-4">ÜBER UNS</div>
                     <h1 className="text-4xl md:text-5xl font-extralight text-[#2D2D2D] mb-12">Andrea Moden</h1>
-                    <div className="w-24 h-[1px] bg-[#C9A477] mx-auto mb-12"></div>
+                    <div className="w-24 h-[1px] bg-[#8B6F47] mx-auto mb-12"></div>
 
-                    <p className="text-lg font-light text-[#666666] leading-relaxed md:leading-8 mb-8 max-w-3xl mx-auto">
+                    <p className="text-lg font-light text-[#555555] leading-relaxed md:leading-8 mb-8 max-w-3xl mx-auto">
                         Willkommen in unserem Fachgeschäft für elegante Damenmode im Herzen von Ottendorf-Okrilla.
                     </p>
-                    <p className="text-base text-[#666666] leading-relaxed max-w-3xl mx-auto">
+                    <p className="text-base text-[#555555] leading-relaxed max-w-3xl mx-auto">
                         Seit vielen Jahren bieten wir eine sorgfältig kuratierte Kollektion hochwertiger Mode für jeden Anlass.
                         Von festlicher Garderobe über Business-Outfits bis hin zu Freizeitmode – bei uns finden Sie stilvolle
                         Kleidung, die Ihre Persönlichkeit unterstreicht. Persönliche Beratung, individuelle Betreuung und ein
@@ -44,9 +44,9 @@ function About() {
             </div>
 
             {/* Galerie */}
-            <div className="py-20 px-6 md:px-16 bg-[#FAFAFA]">
+            <div className="py-20 px-6 md:px-16 bg-[#F5F3F0]">
                 <div className="max-w-6xl mx-auto">
-                    <div className="text-sm tracking-[0.3em] text-[#C9A477] mb-4 text-center">GALERIE</div>
+                    <div className="text-sm tracking-[0.3em] text-[#8B6F47] mb-4 text-center">GALERIE</div>
                     <h2 className="text-3xl font-extralight text-[#2D2D2D] mb-16 text-center">Unser Geschäft</h2>
 
                     {/* Desktop Grid */}
@@ -83,7 +83,7 @@ function About() {
 
                             <button
                                 onClick={prevSlide}
-                                className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/95 hover:bg-white p-3 shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-[#C9A477]"
+                                className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/95 hover:bg-white p-3 shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-[#8B6F47]"
                                 aria-label="Vorheriges Bild"
                             >
                                 <ChevronLeft className="w-5 h-5 text-[#2D2D2D]" />
@@ -116,10 +116,10 @@ function About() {
             </div>
 
             {/* Footer */}
-            <footer className="bg-[#2D2D2D] text-[#F8F6F3] py-16">
+            <footer className="bg-[#1A1A1A] text-[#E8E6E3] py-16">
                 <div className="max-w-6xl mx-auto px-6 text-center">
                     <p className="text-lg mb-2">Andrea Moden</p>
-                    <p className="text-sm opacity-80">Dresdner Straße 4, 01458 Ottendorf-Okrilla</p>
+                    <p className="text-sm opacity-70">Dresdner Straße 4, 01458 Ottendorf-Okrilla</p>
                 </div>
             </footer>
         </div>
